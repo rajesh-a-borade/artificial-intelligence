@@ -1,0 +1,10 @@
+Give me list of all the employees	SELECT * FROM employees
+list all the students	SELECT * FROM students
+show all the employees whose salary is more than 1000?	SELECT * FROM employees WHERE salary > 1000
+the students whose score is more than 75?	SELECT * FROM students WHERE marks > 75
+the students who passed the exam?	SELECT * FROM students WHERE marks > 40
+the students who failed the exam?	SELECT * FROM students WHERE marks < 40
+give me employees with maximum salary	SELECT * FROM employees WHERE marks = max(salary)
+list the student with highest marks	SELECT * FROM students WHERE marks = max(marks)
+employees with designation as manager	SELECT * FROM employees WHERE designation = 'manager'
+employees with department as finance	SELECT * FROM employees WHERE designation = 'finance'

@@ -1,0 +1,29 @@
+
+**********************
+   user_id  age sex  occupation zip_code
+0        1   24   M  technician    85711
+1        2   53   F       other    94043
+2        3   23   M      writer    32067
+3        4   24   M  technician    43537
+4        5   33   F       other    15213
+----------------------
+   user_id  movie_id  rating  unix_timestamp
+0      196       242       3       881250949
+1      186       302       3       891717742
+2       22       377       1       878887116
+3      244        51       2       880606923
+4      166       346       1       886397596
+---------------------- 
+movie id movie title release date  video release date IMDb URL Action Adventure Animation  Children's ... Fantasy  Film-Noir  Horror Musical  Mystery  Romance  Sci-Fi Thriller  War  Western
+0         1   Toy Story (1995)  01-Jan-1995                 NaN
+1         2   GoldenEye (1995)  01-Jan-1995                 NaN
+2         3  Four Rooms (1995)  01-Jan-1995                 NaN
+3         4  Get Shorty (1995)  01-Jan-1995                 NaN
+4         5     Copycat (1995)  01-Jan-1995                 NaN
+
+[5 rows x 24 columns]                                     
+----------------------      
+
+movie_id  title  release_date  [video_release_date]  [imdb_url]  user_id  rating  [unix_timestamp]  age  sex  occupation  zip_code
+
+movie_id  title  release_date  user_id  rating  age sex  occupation zip_code
